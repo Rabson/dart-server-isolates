@@ -1,0 +1,25 @@
+{
+    "watch": [
+        "bin/",
+        "lib/"
+    ],
+    "ext": "dart",
+    "exec": "aqueduct serve"
+}
+
+{
+    "verbose": false,
+    "delay": "10",
+    "watch": [
+        "."
+    ],
+    "ignore": [
+        "build",
+        "tmp"
+    ],
+    "ext": "dart html scss",
+    "exec": "dart main.dart",
+    "execMap": {
+        "dart": "dart"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "watch": [
+        "bin/",
+        "lib/"
+    ],
+    "ext": "dart",
+    "exec": "dart ./bin/main.dart"
+}
